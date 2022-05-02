@@ -1,0 +1,5 @@
+<!ELEMENT lista (pedido*)>
+<!ELEMENT pedido (id,cantidad,peso?)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT peso (#PCDATA)>

@@ -3,6 +3,6 @@
 <nota>
 	<para>Pedro</para>
 	<de>Laura</de>
-	<titulo>Representacion</titulo>
-	<contenido>A las 7:00 en la puerta del teatro</contenido>
+	<titulo idioma="español">Representacion</titulo>
+	<contenido><texto1>A las 7:00 en la puerta del teatro</texto1></contenido>
 </nota>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lista PUBLIC "public-id" "exercise.dtd">
+<lista>
+	<pedido>
+		<id>001</id>
+		<cantidad>5</cantidad>
+		<peso>1</peso>
+	</pedido>
+	<pedido>
+		<id>002</id>
+		<cantidad>10</cantidad>
+		<peso>7</peso>
+	</pedido>
+</lista>

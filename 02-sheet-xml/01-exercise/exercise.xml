@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listaventas PUBLIC "public-id" "exercise.dtd">
+<listaventas>
+	<venta>
+		<importe>20</importe>
+		<comprador>Paco</comprador>
+		<vendedor>Ferreteria Vigo</vendedor>
+		<fecha>02/05/2022</fecha>
+		<codigo>00001</codigo>
+	</venta>
+	<venta>
+		<importe>30</importe>
+		<comprador>Manolo</comprador>
+		<vendedor>Ferreteria Coruña</vendedor>
+		<fecha>04/05/2022</fecha>
+		<codigo>00002</codigo>
+	</venta>
+
+</listaventas>

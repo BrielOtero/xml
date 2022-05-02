@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listacompras PUBLIC "public-id" "exercise.dtd">
+<listacompras>
+	<venta>
+		<ventacredito>
+			<cantidad></cantidad>
+			<fechafinpago></fechafinpago>
+		</ventacredito>
+	</venta>
+	<venta>
+		<ventainmediata>
+			<cantidad></cantidad>
+			<divisa></divisa>
+		</ventainmediata>
+	</venta>
+</listacompras>

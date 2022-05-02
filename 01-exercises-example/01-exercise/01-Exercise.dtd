@@ -1,0 +1,9 @@
+<!ELEMENT nota (para*, de, titulo?, contenido)>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT de (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ATTLIST titulo idioma CDATA #REQUIRED>
+<!ELEMENT contenido (texto1|texto2|texto3)>
+<!ELEMENT texto1 (#PCDATA)>
+<!ELEMENT texto2 (#PCDATA)>
+<!ELEMENT texto3 (#PCDATA)>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listafacturas PUBLIC "public-id" "exercise.dtd">
+<listafacturas>
+	<facturas>
+		<facturas fecha=></facturas
+		<emisor>
+			<nombre></nombre>
+			<volumenventas></volumenventas>
+		</emisor>
+		<emisor cif=></emisor
+		<pagador></pagador>
+		<pagador cif=></pagador
+		<importe></importe>
+	</facturas>
+</listafacturas>

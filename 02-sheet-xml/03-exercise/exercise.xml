@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE productos SYSTEM "exercise.dtd">
+<productos>
+	<producto>
+		<raton>
+			<id>FASDF</id>
+			<nombre>FASDF</nombre>
+			<descripcion>FASDFAS</descripcion>
+		</raton>
+	</producto>
+</productos>
