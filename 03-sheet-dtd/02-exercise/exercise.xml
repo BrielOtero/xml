@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coleccion SYSTEM "exercise.dtd">
+<coleccion>
+	<figura id="moñeco">
+		<material></material>
+		<año></año>
+		<serie></serie>
+	</figura>
+</coleccion>

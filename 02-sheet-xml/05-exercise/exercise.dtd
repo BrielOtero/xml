@@ -1,4 +1,4 @@
-<!ELEMENT inventario (lapiz?|cuaderno?|boligrafo?)>
+<!ELEMENT inventario (lapiz|cuaderno|boligrafo)+>
 <!ELEMENT lapiz (dureza*)>
 <!ELEMENT cuaderno (numhojas+,estilo+)>
 <!ELEMENT boligrafo (precio+,color?)>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE listafacturas PUBLIC "public-id" "exercise.dtd">
 <listafacturas>
-	<facturas>
-		<facturas fecha=></facturas
-		<emisor>
+	<facturas fecha="hello">
+		<emisor cif="77777777">
 			<nombre></nombre>
 			<volumenventas></volumenventas>
 		</emisor>
-		<emisor cif=></emisor
-		<pagador></pagador>
-		<pagador cif=></pagador
+		<pagador cif="7777777777">
+			<nombre></nombre>
+			<volumenventas></volumenventas>
+		</pagador>
 		<importe></importe>
 	</facturas>
 </listafacturas>

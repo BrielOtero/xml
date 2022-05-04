@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="02-example.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<alumno>
+	<nombre>Gabriel</nombre>
+	<apellido>Otero</apellido>
+</alumno>

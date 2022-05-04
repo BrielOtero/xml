@@ -1,0 +1,7 @@
+<!ELEMENT coches (coche)+>
+<!ELEMENT coche (matricula,marca,año,color,prox_revision)>
+<!ELEMENT matricula (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT prox_revision (#PCDATA)>

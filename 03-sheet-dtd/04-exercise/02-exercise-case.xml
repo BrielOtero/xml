@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros SYSTEM "02-exercise-case.dtd">
+<libros>
+	<libro>
+		<título></título>
+		<autor></autor>
+		<num_pags></num_pags>
+		<editorial></editorial>
+	</libro>
+	<libro>
+		<título></título>
+		<autor></autor>
+		<num_pags></num_pags>
+		<editorial></editorial>
+	</libro>
+</libros> 

@@ -1,0 +1,6 @@
+<!ELEMENT libros (libro)*>
+<!ELEMENT libro (título,autor,num_pags,editorial)> 
+<!ELEMENT título (#PCDATA)> 
+<!ELEMENT autor (#PCDATA)> 
+<!ELEMENT num_pags (#PCDATA)> 
+ <!ELEMENT editorial (#PCDATA)>

@@ -1,0 +1,6 @@
+<!ELEMENT agenda (contacto)*> 
+<!ELEMENT contacto (nombre,apellidos?,telefono*,direccion)*> 
+<!ELEMENT nombre (#PCDATA)> 
+<!ELEMENT apellidos (#PCDATA)> 
+<!ELEMENT telefono (#PCDATA)> 
+<!ELEMENT direccion (#PCDATA)> 

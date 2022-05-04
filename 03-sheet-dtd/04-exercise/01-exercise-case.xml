@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda SYSTEM "01-exercise-case.dtd">
+<agenda>
+	<contacto> 
+	<nombre> </nombre> 
+	<telefono></telefono> 
+	<telefono></telefono> 
+	<direccion></direccion> 
+	</contacto> 
+</agenda> 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coches SYSTEM "exercise.dtd">
+<coches>
+	<coche>
+		<matricula>8899JJJ</matricula>
+		<marca>Citroen</marca>
+		<año>2017</año>
+		<color>Rojo</color>
+		<prox_revision>22/07/2019</prox_revision>
+	</coche>
+	<coche>
+		<matricula>PO-5555-BS</matricula>
+		<marca>Rover</marca>
+		<año>1999</año>
+		<color>Azul</color>
+		<prox_revision>22/03/2017</prox_revision>
+	</coche>
+</coches>

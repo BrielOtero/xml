@@ -1,0 +1,7 @@
+<!ELEMENT coleccion (figura)*> 
+<!ELEMENT figura (material,año,serie)+> 
+<!ATTLIST figura 
+ id CDATA #IMPLIED> 
+<!ELEMENT material (#PCDATA)> 
+<!ELEMENT año (#PCDATA)> 
+<!ELEMENT serie (#PCDATA)> 
