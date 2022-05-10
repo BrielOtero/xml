@@ -1,0 +1,30 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="pedido">
+		<xs:complexType>
+		
+			<xs:sequence>
+				<xs:element name="cliente" maxOccurs="1"></xs:element>
+				<xs:element name="envio">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="direccion" type="xs:string"></xs:element>
+							<xs:element name="ciudad" type="xs:string"></xs:element>
+							<xs:element name="pais" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="articulo" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="descripcion" type="xs:string"></xs:element>
+							<xs:element name="nota" type="xs:string" minOccurs="0"></xs:element>
+							<xs:element name="unidades" type="xs:string"></xs:element>
+							<xs:element name="precio" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="ordenid" type="xs:integer"></xs:attribute>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
