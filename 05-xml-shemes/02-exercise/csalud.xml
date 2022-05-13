@@ -1,57 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <csalud xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="csalud.xsd">
-<medicos>
-    <medico>
-        <identificador>rt5ud</identificador>
-        <nombre>Juan</nombre>
-        <especialidad>Traumatología</especialidad>
-        <sala>1</sala>
-    </medico>
-    <medico>
-        <identificador>rt5ud</identificador>
-        <nombre>Juan</nombre>
-        <especialidad>Traumatología</especialidad>
-        <sala>1</sala>
-    </medico>
-</medicos>
-<pacientes>
-    <paciente id="1">
-        <DNI>12345678a</DNI>
-        <nombre></nombre>
-        <direccion>
-        </direccion>
-        <telefono>555-555-555</telefono>
-        <telefono>999-444-333</telefono>
-        <NUSS></NUSS>
-        <fechaNacimiento></fechaNacimiento>
-        <sexo>Hombre</sexo>
-    </paciente>
-    <paciente>
-        <DNI>12345678a</DNI>
-        <nombre></nombre>
-        <direccion>
-        </direccion>
-        <telefono>555-555-555</telefono>
-        <telefono>999-444-333</telefono>
-        <NUSS></NUSS>
-        <fechaNacimiento></fechaNacimiento>
-        <sexo>Hombre</sexo>
-    </paciente>
-</pacientes>
-<citas>
-    <cita>
-        <fecha></fecha>
-        <identificador>r555t</identificador>
-        <DNI>12345678A</DNI>
-        <tratamiento></tratamiento>
-    </cita>
-    <cita>
-        <fecha></fecha>
-        <identificador>r555t</identificador>
-        <DNI>12345678A</DNI>
-        <tratamiento></tratamiento>
-    </cita>
-</citas>
+	<medicos>
+		<medico>
+			<identificador>rt5ud</identificador>
+			<nombre>Juan</nombre>
+			<especialidad>Traumatología</especialidad>
+			<sala>1</sala>
+		</medico>
+		<medico>
+			<identificador>rt5ud</identificador>
+			<nombre>Juan</nombre>
+			<especialidad>Traumatología</especialidad>
+			<sala>1</sala>
+		</medico>
+	</medicos>
+	<pacientes>
+		<paciente>
+			<DNI>12345678a</DNI>
+			<nombre>Manolo</nombre>
+			<direccion>Principe 15</direccion>
+			<telefono>555-555-555</telefono>
+			<telefono>999-444-333</telefono>
+			<NUSS>552515</NUSS>
+			<fechaNacimiento>15/02/2001</fechaNacimiento>
+			<sexo>Hombre</sexo>
+		</paciente>
+		<paciente>
+			<DNI>12345678a</DNI>
+			<nombre></nombre>
+			<direccion>Principe 34</direccion>
+			<telefono>555-555-555</telefono>
+			<telefono>999-444-333</telefono>
+			<NUSS>555555</NUSS>
+			<fechaNacimiento>15/02/1998</fechaNacimiento>
+			<sexo>Hombre</sexo>
+		</paciente>
+	</pacientes>
+	<citas>
+		<cita>
+			<fecha>15/02/2066</fecha>
+			<identificador>r555t</identificador>
+			<DNI>12345678A</DNI>
+			<tratamiento>Dermatitis</tratamiento>
+		</cita>
+		<cita>
+			<fecha>15/02/2066</fecha>
+			<identificador>r555t</identificador>
+			<DNI>12345678A</DNI>
+			<tratamiento>Asma</tratamiento>
+		</cita>
+	</citas>
 
 
 </csalud>
