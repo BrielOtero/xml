@@ -1,0 +1,117 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="academia">
+		<xs:complexType>
+			<xs:sequence>
+
+				<xs:element name="bailes">
+					<xs:complexType>
+						<xs:sequence>
+
+							<xs:element name="baile" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="nombre" type="xs:string"></xs:element>
+										<xs:element name="profesor" type="xs:string"></xs:element>
+										<xs:element name="aula">
+											<xs:simpleType>
+												<xs:restriction base="xs:integer">
+													<xs:maxInclusive value="9"></xs:maxInclusive>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="plazas">
+											<xs:simpleType>
+												<xs:restriction base="xs:integer">
+													<xs:maxInclusive value="24"></xs:maxInclusive>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="alumnos">
+					<xs:complexType>
+						<xs:sequence>
+
+							<xs:element name="alumno">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="dni">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:pattern value="\d{8}\-\w"></xs:pattern>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="nombre" type="xs:string"></xs:element>
+										<xs:element name="direccion" type="xs:string"></xs:element>
+										<xs:element name="telefono" maxOccurs="unbounded" type="xs:integer"></xs:element>
+										<xs:element name="fecha_nacimiento">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:pattern value="\d{4}\-\d{2}\-\d{2}"></xs:pattern>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="sexo">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="hombre"></xs:enumeration>
+													<xs:enumeration value="mujer"></xs:enumeration>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="listados">
+					<xs:complexType>
+						<xs:sequence>
+
+							<xs:element name="lista">
+								<xs:complexType>
+									<xs:sequence>
+
+										<xs:element name="nombre_baile" type="xs:string"></xs:element>
+										<xs:element name="dias" type="xs:integer"></xs:element>
+										<xs:element name="hora_inicio" type="xs:string"></xs:element>
+										<xs:element name="hora_fin" type="xs:string"></xs:element>
+										<xs:element name="DNIs">
+
+											<xs:complexType>
+												<xs:sequence>
+
+													<xs:element name="DNI" maxOccurs="unbounded">
+														<xs:simpleType>
+															<xs:restriction base="xs:string">
+																<xs:pattern value="\d{8}\-\w"></xs:pattern>
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+
+												</xs:sequence>
+											</xs:complexType>
+
+										</xs:element>
+
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

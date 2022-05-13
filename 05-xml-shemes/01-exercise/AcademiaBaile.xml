@@ -1,23 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="Academia.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <academia>
-	<tipos>
-		<tipo>
+	<bailes>
+		<baile>
 			<nombre>Salsa</nombre>
 			<profesor>Paco</profesor>
 			<aula>5</aula>
 			<plazas>8</plazas>
-			<alumnos>
-				<alumno>
-					<dni>88649781L-</dni>
-					<nombre>Pepe</nombre>
-					<direccion>Principe</direccion>
-					<telefono>657348275</telefono>
-					<fecha_nacimiento>1995-05-01</fecha_nacimiento>
-					<sexo>hombre</sexo>
-				</alumno>
-			</alumnos>
-		</tipo>
-	</tipos>
+		</baile>
+	</bailes>
+	<alumnos>
+		<alumno>
+			<dni>55874957-E</dni>
+			<nombre>Pepe</nombre>
+			<direccion>Principe</direccion>
+			<telefono>657348275</telefono>
+			<telefono>646484345</telefono>
+			<fecha_nacimiento>1995-05-01</fecha_nacimiento>
+			<sexo>hombre</sexo>
+		</alumno>
+	</alumnos>
+	<listados>
+		<lista>
+			<nombre_baile>Salsa</nombre_baile>
+			<dias>3</dias>
+			<hora_inicio>15:00</hora_inicio>
+			<hora_fin>18:00</hora_fin>
+			<DNIs>
+				<DNI>55874957-E</DNI>
+				<DNI>46541247-I</DNI>
+				<DNI>46745648-P</DNI>
+			</DNIs>
+		</lista>
+	</listados>
 
 </academia>
